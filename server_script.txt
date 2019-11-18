@@ -1,0 +1,246 @@
+Script started on 2019-10-23 19:04:25-0400
+tfleck@cisc450:~/cisc450/proj1$ sl[K[Kls -la
+total 29
+drwxrwxr-x 2 tfleck tfleck    9 Oct 23 19:04 .
+drwxrwxr-x 4 tfleck tfleck    4 Oct 15 12:47 ..
+-rw-rw-r-- 1 tfleck tfleck  189 Oct 16 15:27 Makefile
+-rw-rw-r-- 1 tfleck tfleck  189 Oct 16 15:27 ReadMe.txt
+-rw-rw-r-- 1 tfleck tfleck    0 Oct 23 19:04 server.txt
+-rw-rw-r-- 1 tfleck tfleck 4894 Oct 16 15:27 tcpclient.c
+-rw-rw-r-- 1 tfleck tfleck 6884 Oct 16 15:27 tcpserver.c
+-rwxr--r-- 1 tfleck tfleck 4340 Oct 16 15:27 test1.txt
+-rwxr--r-- 1 tfleck tfleck 9139 Oct 16 15:27 test2.txt
+tfleck@cisc450:~/cisc450/proj1$ make
+/usr/bin/gcc tcpclient.c -o tcpclient
+/usr/bin/gcc tcpserver.c -o tcpserver
+tfleck@cisc450:~/cisc450/proj1$ ls -la
+total 30
+drwxrwxr-x 2 tfleck tfleck    11 Oct 23 19:04 .
+drwxrwxr-x 4 tfleck tfleck     4 Oct 15 12:47 ..
+-rw-rw-r-- 1 tfleck tfleck   189 Oct 16 15:27 Makefile
+-rw-rw-r-- 1 tfleck tfleck   189 Oct 16 15:27 ReadMe.txt
+-rw-rw-r-- 1 tfleck tfleck     0 Oct 23 19:04 server.txt
+-rwxrwxr-x 1 tfleck tfleck 13296 Oct 23 19:04 tcpclient
+-rw-rw-r-- 1 tfleck tfleck  4894 Oct 16 15:27 tcpclient.c
+-rwxrwxr-x 1 tfleck tfleck 13336 Oct 23 19:04 tcpserver
+-rw-rw-r-- 1 tfleck tfleck  6884 Oct 16 15:27 tcpserver.c
+-rwxr--r-- 1 tfleck tfleck  4340 Oct 16 15:27 test1.txt
+-rwxr--r-- 1 tfleck tfleck  9139 Oct 16 15:27 test2.txt
+tfleck@cisc450:~/cisc450/proj1$ ./tcpserver
+I am here to listen ... on port 6680
+
+Requested filename: test2.txt
+Packet 1 transmitted with 49 data bytes
+Packet 2 transmitted with 2 data bytes
+Packet 3 transmitted with 41 data bytes
+Packet 4 transmitted with 2 data bytes
+Packet 5 transmitted with 51 data bytes
+Packet 6 transmitted with 2 data bytes
+Packet 7 transmitted with 2 data bytes
+Packet 8 transmitted with 2 data bytes
+Packet 9 transmitted with 39 data bytes
+Packet 10 transmitted with 2 data bytes
+Packet 11 transmitted with 44 data bytes
+Packet 12 transmitted with 2 data bytes
+Packet 13 transmitted with 2 data bytes
+Packet 14 transmitted with 79 data bytes
+Packet 15 transmitted with 53 data bytes
+Packet 16 transmitted with 60 data bytes
+Packet 17 transmitted with 79 data bytes
+Packet 18 transmitted with 35 data bytes
+Packet 19 transmitted with 2 data bytes
+Packet 20 transmitted with 77 data bytes
+Packet 21 transmitted with 52 data bytes
+Packet 22 transmitted with 79 data bytes
+Packet 23 transmitted with 49 data bytes
+Packet 24 transmitted with 41 data bytes
+Packet 25 transmitted with 2 data bytes
+Packet 26 transmitted with 63 data bytes
+Packet 27 transmitted with 72 data bytes
+Packet 28 transmitted with 79 data bytes
+Packet 29 transmitted with 1 data bytes
+Packet 30 transmitted with 77 data bytes
+Packet 31 transmitted with 28 data bytes
+Packet 32 transmitted with 72 data bytes
+Packet 33 transmitted with 74 data bytes
+Packet 34 transmitted with 79 data bytes
+Packet 35 transmitted with 77 data bytes
+Packet 36 transmitted with 79 data bytes
+Packet 37 transmitted with 47 data bytes
+Packet 38 transmitted with 2 data bytes
+Packet 39 transmitted with 58 data bytes
+Packet 40 transmitted with 56 data bytes
+Packet 41 transmitted with 2 data bytes
+Packet 42 transmitted with 79 data bytes
+Packet 43 transmitted with 1 data bytes
+Packet 44 transmitted with 79 data bytes
+Packet 45 transmitted with 1 data bytes
+Packet 46 transmitted with 34 data bytes
+Packet 47 transmitted with 32 data bytes
+Packet 48 transmitted with 2 data bytes
+Packet 49 transmitted with 79 data bytes
+Packet 50 transmitted with 2 data bytes
+Packet 51 transmitted with 79 data bytes
+Packet 52 transmitted with 1 data bytes
+Packet 53 transmitted with 79 data bytes
+Packet 54 transmitted with 79 data bytes
+Packet 55 transmitted with 1 data bytes
+Packet 56 transmitted with 79 data bytes
+Packet 57 transmitted with 79 data bytes
+Packet 58 transmitted with 1 data bytes
+Packet 59 transmitted with 76 data bytes
+Packet 60 transmitted with 77 data bytes
+Packet 61 transmitted with 73 data bytes
+Packet 62 transmitted with 15 data bytes
+Packet 63 transmitted with 2 data bytes
+Packet 64 transmitted with 76 data bytes
+Packet 65 transmitted with 77 data bytes
+Packet 66 transmitted with 73 data bytes
+Packet 67 transmitted with 38 data bytes
+Packet 68 transmitted with 2 data bytes
+Packet 69 transmitted with 78 data bytes
+Packet 70 transmitted with 76 data bytes
+Packet 71 transmitted with 78 data bytes
+Packet 72 transmitted with 78 data bytes
+Packet 73 transmitted with 68 data bytes
+Packet 74 transmitted with 77 data bytes
+Packet 75 transmitted with 56 data bytes
+Packet 76 transmitted with 65 data bytes
+Packet 77 transmitted with 65 data bytes
+Packet 78 transmitted with 64 data bytes
+Packet 79 transmitted with 7 data bytes
+Packet 80 transmitted with 2 data bytes
+Packet 81 transmitted with 74 data bytes
+Packet 82 transmitted with 73 data bytes
+Packet 83 transmitted with 79 data bytes
+Packet 84 transmitted with 2 data bytes
+Packet 85 transmitted with 75 data bytes
+Packet 86 transmitted with 73 data bytes
+Packet 87 transmitted with 64 data bytes
+Packet 88 transmitted with 60 data bytes
+Packet 89 transmitted with 79 data bytes
+Packet 90 transmitted with 2 data bytes
+Packet 91 transmitted with 67 data bytes
+Packet 92 transmitted with 46 data bytes
+Packet 93 transmitted with 2 data bytes
+Packet 94 transmitted with 66 data bytes
+Packet 95 transmitted with 61 data bytes
+Packet 96 transmitted with 61 data bytes
+Packet 97 transmitted with 66 data bytes
+Packet 98 transmitted with 66 data bytes
+Packet 99 transmitted with 63 data bytes
+Packet 100 transmitted with 62 data bytes
+Packet 101 transmitted with 67 data bytes
+Packet 102 transmitted with 61 data bytes
+Packet 103 transmitted with 59 data bytes
+Packet 104 transmitted with 64 data bytes
+Packet 105 transmitted with 63 data bytes
+Packet 106 transmitted with 61 data bytes
+Packet 107 transmitted with 63 data bytes
+Packet 108 transmitted with 64 data bytes
+Packet 109 transmitted with 47 data bytes
+Packet 110 transmitted with 2 data bytes
+Packet 111 transmitted with 79 data bytes
+Packet 112 transmitted with 2 data bytes
+Packet 113 transmitted with 79 data bytes
+Packet 114 transmitted with 2 data bytes
+Packet 115 transmitted with 79 data bytes
+Packet 116 transmitted with 2 data bytes
+Packet 117 transmitted with 79 data bytes
+Packet 118 transmitted with 2 data bytes
+Packet 119 transmitted with 79 data bytes
+Packet 120 transmitted with 2 data bytes
+Packet 121 transmitted with 79 data bytes
+Packet 122 transmitted with 2 data bytes
+Packet 123 transmitted with 79 data bytes
+Packet 124 transmitted with 2 data bytes
+Packet 125 transmitted with 39 data bytes
+Packet 126 transmitted with 2 data bytes
+Packet 127 transmitted with 66 data bytes
+Packet 128 transmitted with 62 data bytes
+Packet 129 transmitted with 61 data bytes
+Packet 130 transmitted with 46 data bytes
+Packet 131 transmitted with 2 data bytes
+Packet 132 transmitted with 67 data bytes
+Packet 133 transmitted with 64 data bytes
+Packet 134 transmitted with 65 data bytes
+Packet 135 transmitted with 67 data bytes
+Packet 136 transmitted with 65 data bytes
+Packet 137 transmitted with 63 data bytes
+Packet 138 transmitted with 64 data bytes
+Packet 139 transmitted with 66 data bytes
+Packet 140 transmitted with 50 data bytes
+Packet 141 transmitted with 2 data bytes
+Packet 142 transmitted with 60 data bytes
+Packet 143 transmitted with 63 data bytes
+Packet 144 transmitted with 66 data bytes
+Packet 145 transmitted with 63 data bytes
+Packet 146 transmitted with 66 data bytes
+Packet 147 transmitted with 65 data bytes
+Packet 148 transmitted with 62 data bytes
+Packet 149 transmitted with 55 data bytes
+Packet 150 transmitted with 63 data bytes
+Packet 151 transmitted with 65 data bytes
+Packet 152 transmitted with 66 data bytes
+Packet 153 transmitted with 39 data bytes
+Packet 154 transmitted with 2 data bytes
+Packet 155 transmitted with 67 data bytes
+Packet 156 transmitted with 67 data bytes
+Packet 157 transmitted with 64 data bytes
+Packet 158 transmitted with 64 data bytes
+Packet 159 transmitted with 64 data bytes
+Packet 160 transmitted with 58 data bytes
+Packet 161 transmitted with 45 data bytes
+Packet 162 transmitted with 2 data bytes
+Packet 163 transmitted with 61 data bytes
+Packet 164 transmitted with 58 data bytes
+Packet 165 transmitted with 60 data bytes
+Packet 166 transmitted with 67 data bytes
+Packet 167 transmitted with 65 data bytes
+Packet 168 transmitted with 62 data bytes
+Packet 169 transmitted with 63 data bytes
+Packet 170 transmitted with 65 data bytes
+Packet 171 transmitted with 65 data bytes
+Packet 172 transmitted with 62 data bytes
+Packet 173 transmitted with 62 data bytes
+Packet 174 transmitted with 8 data bytes
+Packet 175 transmitted with 2 data bytes
+Packet 176 transmitted with 65 data bytes
+Packet 177 transmitted with 65 data bytes
+Packet 178 transmitted with 61 data bytes
+Packet 179 transmitted with 65 data bytes
+Packet 180 transmitted with 9 data bytes
+Packet 181 transmitted with 2 data bytes
+Packet 182 transmitted with 56 data bytes
+Packet 183 transmitted with 2 data bytes
+Packet 184 transmitted with 52 data bytes
+Packet 185 transmitted with 2 data bytes
+Packet 186 transmitted with 56 data bytes
+Packet 187 transmitted with 2 data bytes
+Packet 188 transmitted with 61 data bytes
+Packet 189 transmitted with 19 data bytes
+Packet 190 transmitted with 2 data bytes
+End of transmission packet with sequence number 191 transmitted with 0 data bytes
+
+---Server Statistics---
+Data packets transmitted: 190
+Total number of data bytes transmitted: 9139
+tfleck@cisc450:~/cisc450/proj1$ ls -la
+total 52
+drwxrwxr-x 2 tfleck tfleck    12 Oct 23 19:05 .
+drwxrwxr-x 4 tfleck tfleck     4 Oct 15 12:47 ..
+-rw-rw-r-- 1 tfleck tfleck   189 Oct 16 15:27 Makefile
+-rw-rw-r-- 1 tfleck tfleck  9139 Oct 23 19:05 out.txt
+-rw-rw-r-- 1 tfleck tfleck   189 Oct 16 15:27 ReadMe.txt
+-rw-rw-r-- 1 tfleck tfleck  8192 Oct 23 19:05 server.txt
+-rwxrwxr-x 1 tfleck tfleck 13296 Oct 23 19:04 tcpclient
+-rw-rw-r-- 1 tfleck tfleck  4894 Oct 16 15:27 tcpclient.c
+-rwxrwxr-x 1 tfleck tfleck 13336 Oct 23 19:04 tcpserver
+-rw-rw-r-- 1 tfleck tfleck  6884 Oct 16 15:27 tcpserver.c
+-rwxr--r-- 1 tfleck tfleck  4340 Oct 16 15:27 test1.txt
+-rwxr--r-- 1 tfleck tfleck  9139 Oct 16 15:27 test2.txt
+tfleck@cisc450:~/cisc450/proj1$ diff out.txt test2.txt
+tfleck@cisc450:~/cisc450/proj1$ exit
+exit
+
+Script done on 2019-10-23 19:05:54-0400
